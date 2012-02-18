@@ -58,11 +58,8 @@ Architectural alternatives
   + Scalability good : stateless server nodes can be deployed in parallel
   + Javascript community is very active, producing innovative new libs and frameworks all the time
   - REST is not suitable for everything
-    - Push to client (instead of polling)
-    - Content streaming (video, audio)
-  - With HTML frontend
-    - Must use Javascript
-    - Lots of JS code to test (must test a lot of code in different browsers)
+      - Push to client (instead of polling)
+      - Content streaming (video, audio)
 
 Server-side programming languages
 ---------------------------------
