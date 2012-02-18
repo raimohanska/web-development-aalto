@@ -63,3 +63,51 @@ Architectural alternatives
   - With HTML frontend
     - Must use Javascript
     - Lots of JS code to test (must test a lot of code in different browsers)
+
+Server-side programming languages
+---------------------------------
+
+This is opinionated :)
+
+- Java
+  + JRE => hosting, perfomance, field-proven runtime
+  + Library, Documentation availability
+  + Large developer base
+  + Development tools (Eclipse, IDEA)
+  - Retarded development compared to .NET for example
+- Ruby
+  + More modern language, supports FP better
+  + Rails, Sinatra frameworks support rapid development
+  - Performance not so good (not JRE based)
+  - Dynamic typing
+- PHP
+  + Easy to start (documentation, can embed logic into HTML)
+  + Apache support => easy deployment
+  - Not a very nice programming language
+  - Oriented towards server-side templating => not a real alternative as a RESTful server lang
+- .NET
+  + Good tools, documentation
+  + Improving constantly (esp. compared to Java), new languages introduced etc (F#)
+  + Large developer base
+  - Dev machines and servers must be Windows (practically)
+- Haskell
+  + Modern, expressive language
+  + Frameworks for RESTful web services: Yesod, Snap
+  - Not well known, tiny developer base (compared to..)
+  - No IDE support (not a killer in this scale)
+  - Non JRE => hosting more difficult
+- Scala
+  + Modern, expressive language
+  + JRE => hosting, perfomance, field-proven runtime
+  + Java libraries can be used
+  + Nice Scala frameworks (Scalatra, lift-json)
+  + Transition from Java/.NET is easier than Haskell, Clojure, Ruby
+  - IDE support not so fantastic (improving though)
+  - Binary instability (dependency on Scala version)
+  - Framework/library maturity (new stuff is introduced rapidly, doesn't get stable before may already be replaced by something else)
+  + In active developement, both libs&lang => intreresting environment for developers
+
+- Why Scala for Partyblastr?
+  - Elegant lang, functional programming
+  - Deploy to JRE => Hosting available : Heroku, Google App Engine
+  - Not too foreign for students who know Java
